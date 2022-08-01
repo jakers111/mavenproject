@@ -14,11 +14,9 @@ WebDriver driver;
 	
 	
 	@FindBy(xpath="//div[text()='Jaker']")
-	
 	private WebElement profileName;
 	
 	@FindBy(xpath="(//li[@class='_2NOVgj'])[1]")
-	
 	private WebElement myProfileText;
 	
 	
