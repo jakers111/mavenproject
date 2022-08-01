@@ -23,8 +23,6 @@ public class LoginPage extends Util1{
 	
 	@FindBy(xpath="(//button[@type='submit'])[2]")
 	private WebElement loginBtn;
-	
-	
 	//constructor
 	public LoginPage(WebDriver driver)
 	{
